@@ -1,4 +1,4 @@
-function isPrimeNumber(n){
+function isPrimeNumber(n) {
   let arr
   if (Array.isArray(n)) {
     arr = n;
