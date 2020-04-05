@@ -20,13 +20,12 @@ function isPrimeNumber(n){
 }
 
 function isPrimeDigit(num) {
-  let isPrime;
-  if (num >= 2)	{
-    isPrime = true;	  
+  let isPrime = true;	
+  if (num >= 2)	{  
     for (let i = 2; i < num; i++) {
       if (num % i == 0) {
         isPrime = false;
-		break;
+        break;
       }
     }
   } else {
