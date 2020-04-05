@@ -44,7 +44,7 @@
 	width: 95px;
 	height: 41px;
 	position: relative;
-    padding-left: 45px;
+	padding-left: 45px;
 	padding-top: 8px;	
 }
 .me:before
@@ -125,7 +125,7 @@
 }
 .main
 {
-    display: flex;
+	display: flex;
 	flex-direction: column;
 	margin: 0 auto;
 	margin-top: -190px;
@@ -136,7 +136,7 @@
 }
 article
 {
-    display: block;
+	display: block;
 	width: 960px;
 	height: 976px;
 	margin: 0 auto;
@@ -168,10 +168,6 @@ blockquote
 	display: block;
 	font: italic 28px/42px Georgia;
 	color: #fff;
-	/*font-size:28px;*/
-	/*line-height:42px;*/
-    /*font-family:Georgia;*/
-    /*font-style:italic;*/
 	margin: 0;
 }
 cite
@@ -286,7 +282,7 @@ ol
 .link:after
 {
 	content: "→";
-    font: 19px/32px Georgia;
+	font: 19px/32px Georgia;
 	color: #15a98b;
 	display: block;
 	position: absolute;
@@ -295,7 +291,7 @@ ol
 }
 .film
 {
-    display: block;
+	display: block;
 	width: 1220px;
 	height: 897px;
 	margin: 0 auto;
@@ -358,7 +354,7 @@ ol
 }
 footer
 {
-    display: block;
+	display: block;
 	width: 1920px;
 	height: 70px;
 	margin: 0 auto;
@@ -368,7 +364,7 @@ footer
 }
 .footer-text
 {
-    display: block;
+	display: block;
 	width: 734px;
 	height: 70px;
 	margin: 0 auto;
