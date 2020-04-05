@@ -1,0 +1,167 @@
+*
+{
+	margin: 0;
+}
+article
+{
+    display: block;
+	width: 960px;
+	padding-top: 100px;
+	margin: 0 auto;
+}
+.top_block
+{
+	display: block;
+	width: 960px;
+	height: 350px;
+	margin-bottom: 25px;
+}
+.photo
+{
+	display: block;
+	float: left;
+	margin-right: 60px;
+	border-radius: 5px;
+}
+.quote
+{
+	display: block;
+	width: 560px;
+	height: 300px;
+	background-image: url("../images/kav.png");
+	background-repeat: no-repeat;
+	margin-top: 50px;
+	float: left;
+} 
+blockquote
+{
+	display: block;
+	font: italic 28px/42px Georgia;
+	color: #848484;
+	/*font-size:28px;*/
+	/*line-height:42px;*/
+    /*font-family:Georgia;*/
+    /*font-style:italic;*/
+	padding-left: 60px;
+	padding-top: 70px;
+	margin: 0;
+}
+cite
+{
+	display: block;
+	color: #333;
+	font: 600 16px/42px Open Sans, sans-serif;
+	font-style: normal;
+	padding-left: 60px;
+}	
+.like
+{
+	display: block;
+	width: 330px;
+	float: left;
+	/*margin-right: 10px;*/	
+}
+.writer
+{
+	display: block;
+	margin-bottom: 40px;
+}
+.information
+{
+	display: block;
+	width: 570px;
+	float: right;
+}
+.rectangl
+{
+	display: block;
+	width: 60px;
+	height: 6px;
+	border-radius: 3px;
+	background-color: #45c3aa;
+	margin-bottom: 44px;
+}
+.status	
+{
+	display: block;
+	color: #555;
+	font: 19px/32px Georgia;
+	margin-bottom: 42px;	
+}
+.clear
+{
+	display: block;
+	clear: both;
+}
+.name
+{
+	display: block;
+	color: #333;
+	font: 700 48px/42px Open Sans, sans-serif;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	
+}
+.likewriter
+{
+	font: 600 24px/32px Open Sans, sans-serif;
+	color: #15a98c;
+	padding-top: 20px;
+	margin-bottom: 10px;
+}
+.likefilm
+{
+	font: 600 24px/32px Open Sans, sans-serif;
+	color: #15a98c;
+	margin-bottom: 10px;
+}
+.hobby
+{
+	font: 400 36px/42px Open Sans, sans-serif;
+	color: #333;
+	margin-bottom: 8px;
+}
+li
+{
+	font: 19px/36px Georgia;
+	color: #555;
+}
+ul
+{
+	display: block;
+	padding-left: 22px;
+	padding-top: 3px;
+	margin-top: 0;
+}
+ol
+{
+	display: block;
+	margin-top: 12px;
+	padding-left: 20px;	
+}
+p
+{
+	font: 19px/32px Georgia;
+	color: #555;
+	display: block;
+	margin-top: 17px;
+	margin-bottom: 98px;
+}
+.link
+{
+	position: relative;
+	font: 19px/32px Georgia;
+	color: #15a98b;
+	right: -21px;
+}
+
+.link:after
+{
+	content: "→";
+    font: 19px/32px Georgia;
+	color: #15a98b;
+	display: block;
+	position: absolute;
+	right: -25px;
+	top: -4px;
+}
