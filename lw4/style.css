@@ -4,7 +4,7 @@
 }
 article
 {
-    display: block;
+	display: block;
 	width: 960px;
 	padding-top: 100px;
 	margin: 0 auto;
@@ -40,8 +40,8 @@ blockquote
 	color: #848484;
 	/*font-size:28px;*/
 	/*line-height:42px;*/
-    /*font-family:Georgia;*/
-    /*font-style:italic;*/
+	/*font-family:Georgia;*/
+	/*font-style:italic;*/
 	padding-left: 60px;
 	padding-top: 70px;
 	margin: 0;
@@ -158,7 +158,7 @@ p
 .link:after
 {
 	content: "→";
-    font: 19px/32px Georgia;
+	font: 19px/32px Georgia;
 	color: #15a98b;
 	display: block;
 	position: absolute;
