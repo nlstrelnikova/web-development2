@@ -2,7 +2,6 @@
 {
     margin: 0;
 }
-
 .menu
 {
     display: flex;
@@ -285,7 +284,6 @@ ol
     right: -23px;
     top: -4px;
 }
-
 .film
 {
     display: block;
@@ -323,7 +321,6 @@ ol
     width: 285px;
     padding-right: 16px;	
 }
-
 .img_movie1, .img_movie2, .img_movie3, .img_movie4 
 {
     border-radius: 4px;
@@ -341,12 +338,10 @@ ol
 	padding: 0;
     margin-left: 828px;;
 }
-
 .green_button:hover
 {
     background-color: #098d72;
 }
-
 footer
 {
     height: 70px;
