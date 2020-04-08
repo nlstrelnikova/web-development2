@@ -2,6 +2,7 @@
 {
     margin: 0;
 }
+
 .menu
 {
     display: flex;
@@ -10,6 +11,7 @@
     margin: 0 auto;
     font: 19px/32px Georgia;
 }
+
 .menu ul 
 {
     list-style: none; /*убираем маркеры списка*/
@@ -17,26 +19,31 @@
     padding-left: 0; /*убираем левый отступ, равный 40px*/
     height: 50px;
 }
+
 .menu a 
 {
     text-decoration: none; /*убираем подчеркивание текста ссылок*/
     color: #333;
     background-color: #fff;
 }
+
 .menu li
 {
     display: inline-block;
     height: 50px;
 }
+
 .menu li:hover
 {
     background-color: #15a98b;
 }
+
 .menu a:hover
 {
     color: #f5f5f5;
     background-color: #15a98b;
 }
+
 .me
 {
     display: block;
@@ -46,6 +53,7 @@
     padding-left: 45px;
     padding-top: 8px;	
 }
+
 .me:before
 {
     content: url("../images/about_me_icon.png");
@@ -54,6 +62,7 @@
     left: 19px;
     top: 8px;
 }
+
 .me:hover:before
 {
     content: url("../images/about_me_icon2.png");
@@ -62,6 +71,7 @@
     left: 19px;
     top: 8px;
 }
+
 .hobby
 {
     display: block;
@@ -71,6 +81,7 @@
     padding-left: 41px;
     padding-top:7px;
 }
+
 .hobby:before
 {
     content: url("../images/hobby_icon.png");
@@ -79,6 +90,7 @@
     left: 14px;
     top: 8px;
 }
+
 .hobby:hover:before
 {
     content: url("../images/hobby_icon2.png");
@@ -87,6 +99,7 @@
     left: 14px;
     top: 8px;
 }
+
 .video
 {
     display: block;
@@ -96,6 +109,7 @@
     padding-left: 35px;
     padding-top: 7px;
 }
+
 .video:before
 {
     content: url("../images/video_icon.png");
@@ -104,6 +118,7 @@
     left: 8px;
     top: 8px;
 }
+
 .video:hover:before
 {
     content: url("../images/video_icon2.png");
@@ -112,6 +127,7 @@
     left: 8px;
     top: 8px;
 }
+
 .background
 {
     display: block;
@@ -121,6 +137,7 @@
     background-image: URL("../images/background.png");
     filter: brightness(60%);
 }
+
 .main
 {
     display: flex;
@@ -130,6 +147,7 @@
     width: 1920px;
     margin-bottom: 70px;
 }
+
 article
 {
     display: block;
@@ -138,6 +156,7 @@ article
     margin-top: -190px;
     filter: brightness(100%);
 }
+
 .top_block
 {
     display: block;
@@ -145,6 +164,7 @@ article
     height: 350px;
     margin-bottom: 8px;
 }
+
 .photo
 {
     display: block;
@@ -152,6 +172,7 @@ article
     margin-right: 60px;
     border-radius: 5px;
 }
+
 .quote
 {
     display: block;
@@ -160,6 +181,7 @@ article
     margin-top: 24px;
     float: left;
 } 
+
 blockquote
 {
     display: block;
@@ -167,6 +189,7 @@ blockquote
     color: #fff;
     margin: 0;
 }
+
 cite
 {
     display: block;
@@ -175,7 +198,8 @@ cite
     font-style: normal;
     padding-left: 5px;
     padding-top: 3px;
-}	
+}
+	
 .like
 {
     display: block;
@@ -183,17 +207,20 @@ cite
     float: left;
     padding-top: 17px;	
 }
+
 .writer
 {
     display: block;
     margin-bottom: 42px;
 }
+
 .information
 {
     display: block;
     width: 573px;
     float: right;
 }
+
 .rectangl
 {
     display: block;
@@ -202,6 +229,7 @@ cite
     border-radius: 3px;
     background-color: #45c3aa;
 }
+
 .status	
 {
     display: block;
@@ -209,11 +237,13 @@ cite
     font: 19px/32px Georgia;
     margin-bottom: 43px;	
 }
+
 .clear
 {
     display: block;
     clear: both;
 }
+
 .name
 {
     display: block;
@@ -222,6 +252,7 @@ cite
     margin-top: 81px;
     margin-bottom: 32px;
 }
+
 .likewriter
 {
     font: 600 24px/32px Open Sans, sans-serif;
@@ -229,23 +260,27 @@ cite
     padding-top: 20px;
     margin-bottom: 10px;
 }
+
 .likefilm
 {
     font: 600 24px/32px Open Sans, sans-serif;
     color: #15a98c;
     margin-bottom: 10px;
 }
+
 .my_hobby
 {
     font: 400 36px/42px Open Sans, sans-serif;
     color: #333;
     margin-bottom: 18px;
 }
+
 li
 {
     font: 19px/36px Georgia;
     color: #555;
 }
+
 .like ul
 {
     display: block;
@@ -253,12 +288,14 @@ li
     padding-top: 3px;
     margin-top: 0;
 }
+
 ol
 {
     display: block;
     margin-top: 12px;
     padding-left: 20px;	
 }
+
 .volley
 {
     font: 19px/32px Georgia;
@@ -266,6 +303,7 @@ ol
     display: block;
     margin-bottom: 42px;
 }
+
 .link
 {
     position: relative;
@@ -284,6 +322,7 @@ ol
     right: -23px;
     top: -4px;
 }
+
 .film
 {
     display: block;
@@ -292,6 +331,7 @@ ol
     margin-top: 95px;
     margin-bottom: 72px;
 }
+
 .my_film
 {
     display: block;
@@ -299,12 +339,14 @@ ol
     color: #333;
     margin-bottom:32px;
 }
+
 .description
 {
     width: 285px;
     font: 16px/28px Georgia;
     color: #555;
 }
+
 .my_movi
 {
     font: 700 22px/32px Open Sans, sans-serif;
@@ -314,6 +356,7 @@ ol
     margin-top: 9px;
     padding-left: 2px;
 }
+
 .movie 
 {
     display: inline-block;
@@ -321,11 +364,13 @@ ol
     width: 285px;
     padding-right: 16px;	
 }
+
 .img_movie1, .img_movie2, .img_movie3, .img_movie4 
 {
     border-radius: 4px;
     background-color: #464646;
 }
+
 .green_button
 {
     width: 220px;
@@ -338,10 +383,12 @@ ol
 	padding: 0;
     margin-left: 828px;;
 }
+
 .green_button:hover
 {
     background-color: #098d72;
 }
+
 footer
 {
     height: 70px;
@@ -351,6 +398,7 @@ footer
     font: 16px/1.5 Georgia;
     margin: 0 auto;
 }
+
 .footer-text
 {
     display: block;
