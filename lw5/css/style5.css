@@ -128,16 +128,6 @@
     top: 8px;
 }
 
-.background
-{
-    display: block;
-    width: 1920px;
-    height: 400px;
-    margin: 0 auto;
-    background-image: URL("../images/background.png");
-    filter: brightness(60%);
-}
-
 .main
 {
     display: flex;
@@ -145,6 +135,8 @@
     margin: 0 auto;
     padding: 0;
     width: 1920px;
+    background: url(../images/background.png) no-repeat;
+    background-position: 0 50px;
     margin-bottom: 70px;
 }
 
@@ -153,8 +145,7 @@ article
     display: block;
     width: 960px;
     margin: 0 auto;
-    margin-top: -190px;
-    filter: brightness(100%);
+    margin-top: 210px;
 }
 
 .top_block
