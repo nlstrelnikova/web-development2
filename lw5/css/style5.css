@@ -309,7 +309,7 @@ ol
     position: relative;
     font: 19px/32px Georgia;
     color: #15a98b;
-    right: 0;
+    right: -2px;
 }
 
 .link:after
@@ -326,9 +326,9 @@ ol
 .film
 {
     display: block;
-    width: 1228px;
+    width: 1222px;
     margin: 0 auto;
-    margin-top: 95px;
+    margin-top: 94px;
     margin-bottom: 72px;
 }
 
@@ -353,16 +353,20 @@ ol
     color: #333;
     padding-top: 12px;
     padding-bottom: 18px;
-    margin-top: 9px;
-    padding-left: 2px;
+    margin-top: 10px;
 }
+
+.movies
+{
+    display: flex;
+    flex-flow: row wrap;
+}
+
 
 .movie 
 {
-    display: inline-block;
-    vertical-align: top;
     width: 285px;
-    padding-right: 16px;	
+    padding-right: 20px;	  
 }
 
 .img_movie1, .img_movie2, .img_movie3, .img_movie4 
@@ -394,8 +398,6 @@ footer
     height: 70px;
     width: 1920px;
     background-color: #f5f5f5;
-    color: #555555;
-    font: 16px/1.5 Georgia;
     margin: 0 auto;
 }
 
@@ -405,7 +407,7 @@ footer
     width: 734px;
     height: 49px;
     margin: 0 auto;
-    padding-top: 21px;
+    padding-top: 20px;
     font: 16px/32px Georgia;
     color: #555;	
 }
