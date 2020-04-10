@@ -136,7 +136,7 @@
     padding: 0;
     width: 1920px;
     background: url(../images/background.png) no-repeat;
-    background-position: 0 50px;
+    background-position-y: 50px;
     margin-bottom: 70px;
 }
 
@@ -317,7 +317,7 @@ ol
 .film
 {
     display: block;
-    width: 1222px;
+    width: 1223px;
     margin: 0 auto;
     margin-top: 94px;
     margin-bottom: 72px;
@@ -357,6 +357,11 @@ ol
 {
     width: 285px;
     padding-right: 20px;	  
+}
+
+.movie:last-of-type
+{
+    padding-right: 23px;
 }
 
 .img_movie1, .img_movie2, .img_movie3, .img_movie4 
