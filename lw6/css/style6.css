@@ -131,7 +131,7 @@
 .main
 {
     display: flex;
-	flex-basis: auto;
+    flex-basis: auto;
     flex-direction: column;
     margin: 0 auto;
     padding: 0;
@@ -361,7 +361,7 @@ ol
 .movies
 {
     display: flex;
-	flex-basis: auto;
+    flex-basis: auto;
     flex-flow: row wrap;
 }
 
@@ -396,10 +396,10 @@ ol
     font: 19px/32px Georgia;
     padding: 0;
     margin-left: 840px;
-	text-decoration: none;
+    text-decoration: none;
     text-align: center;
     padding-top: 10px;
-	padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .green_button:hover
@@ -410,20 +410,20 @@ ol
 .conteiner
 {
     display: block;
-	width: 1920px;
+    width: 1920px;
     margin: 0 auto;  
 }
 
 .write_me
 {
     display: block;
-	width: 712px;
+    width: 712px;
     margin: 0 auto;  
 }
 
 .form_head
 {
-	color: #333333;
+    color: #333;
     text-transform: uppercase;
     font: 300 36px/1.2 Open Sans;
     margin-top: 45px;
@@ -436,7 +436,7 @@ ol
     display: inline-block;
     width: 200px;
     vertical-align: middle;
-	padding-bottom: 5px;
+    padding-bottom: 5px;
     border-top: 1px solid #c4c4c4;  
 }
 
@@ -453,8 +453,8 @@ ol
 .form
 {
     width: 542px;
-	margin: 0 auto;
-	margin-bottom: 48px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 label
@@ -464,13 +464,13 @@ label
 
 .star
 {
-	color: red;
-	padding-left: 5px;
+    color: red;
+    padding-left: 5px;
 }
 
 .input_field:focus, .message:focus, .country:focus
 {
-	border-color: #15a98c;
+    border-color: #15a98c;
 }
 
 .input_field
@@ -530,7 +530,7 @@ label[for="male"], label[for="female"]
 #female
 {
     margin-left: 36px;
-	margin-right: 4px;
+    margin-right: 4px;
 }
 
 .message
@@ -541,8 +541,8 @@ label[for="male"], label[for="female"]
     border-radius: 2px;
     font: 400 18px/1.6 Open Sans;
     padding: 5px;
-	margin-top: 2px;
-	resize: none;
+    margin-top: 2px;
+    resize: none;
 }
 
 .submit
