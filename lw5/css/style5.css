@@ -59,8 +59,8 @@
     content: url("../images/about_me_icon.png");
     display: block;
     position: absolute;
-    left: 19px;
-    top: 8px;
+    left: 21px;
+    top: 9px;
 }
 
 .me:hover:before
@@ -68,8 +68,8 @@
     content: url("../images/about_me_icon2.png");
     display: block;
     position: absolute;
-    left: 19px;
-    top: 8px;
+    left: 21px;
+    top: 9px;
 }
 
 .hobby
@@ -87,8 +87,8 @@
     content: url("../images/hobby_icon.png");
     display: block;
     position: absolute;
-    left: 14px;
-    top: 8px;
+    left: 15px;
+    top: 9px;
 }
 
 .hobby:hover:before
@@ -96,8 +96,8 @@
     content: url("../images/hobby_icon2.png");
     display: block;
     position: absolute;
-    left: 14px;
-    top: 8px;
+    left: 15px;
+    top: 9px;
 }
 
 .video
@@ -115,7 +115,7 @@
     content: url("../images/video_icon.png");
     display: block;
     position: absolute;
-    left: 8px;
+    left: 10px;
     top: 8px;
 }
 
@@ -124,13 +124,14 @@
     content: url("../images/video_icon2.png");
     display: block;
     position: absolute;
-    left: 8px;
+    left: 10px;
     top: 8px;
 }
 
 .main
 {
     display: flex;
+	flex-basis: auto;
     flex-direction: column;
     margin: 0 auto;
     padding: 0;
@@ -160,6 +161,8 @@ article
 {
     display: block;
     float: left;
+    width: 330px;
+    height: 350px; 
     margin-right: 60px;
     border-radius: 5px;
 }
@@ -263,7 +266,7 @@ cite
 {
     font: 400 36px/42px Open Sans, sans-serif;
     color: #333;
-    margin-bottom: 18px;
+    margin-bottom: 14px;
 }
 
 li
@@ -310,7 +313,7 @@ ol
     color: #15a98b;
     display: block;
     position: absolute;
-    right: -23px;
+    right: -25px;
     top: -4px;
 }
 
@@ -319,8 +322,8 @@ ol
     display: block;
     width: 1223px;
     margin: 0 auto;
-    margin-top: 94px;
-    margin-bottom: 72px;
+    margin-top: 92px;
+    margin-bottom: 52px;
 }
 
 .my_film
@@ -342,7 +345,7 @@ ol
 {
     font: 700 22px/32px Open Sans, sans-serif;
     color: #333;
-    padding-top: 12px;
+    padding-top: 10px;
     padding-bottom: 18px;
     margin-top: 10px;
 }
@@ -350,6 +353,7 @@ ol
 .movies
 {
     display: flex;
+	flex-basis: auto;
     flex-flow: row wrap;
 }
 
