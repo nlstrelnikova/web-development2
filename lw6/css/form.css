@@ -2,6 +2,7 @@
 {
     width: 542px;
     margin: 0 auto;
+    margin-top: 200px;
 }
 
 label
@@ -46,14 +47,17 @@ input[name="email"]
 
 .data
 {
-    width: 542px;
+    width: 200px;
     margin: 0 auto;
     font: 400 18px/1.6 Open Sans;
+    list-style: none;
+    margin-top: 200px;	
 }
 
 dd
 {
-    width: 542px;
+    width: 270px;
     margin: 0 auto;
     font: 400 18px/1.6 Open Sans;
+    margin-top: 200px;
 }
