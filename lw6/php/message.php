@@ -29,8 +29,8 @@ if (isset($data))
         {
             foreach ($array_data as $value) 
             {
-                $array_definition = explode(":", $value);
-                echo "<li>$array_definition[0]: $array_definition[1]</li>";
+                $array_output = explode(":", $value);
+                echo "<li>$array_output[0]: $array_output[1]</li>";
             }
         }   
         else 
