@@ -1,6 +1,7 @@
 *
 {
     margin: 0;
+    padding: 0;
 }
 
 .menu
@@ -12,7 +13,7 @@
     font: 19px/32px Georgia;
 }
 
-.menu ul 
+.nav_bar 
 {
     list-style: none; /*убираем маркеры списка*/
     margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
@@ -20,25 +21,25 @@
     height: 50px;
 }
 
-.menu a 
+.nav_bar_button 
 {
     text-decoration: none; /*убираем подчеркивание текста ссылок*/
     color: #333;
     background-color: #fff;
 }
 
-.menu li
+.nav_bar_menu
 {
     display: inline-block;
     height: 50px;
 }
 
-.menu li:hover
+.nav_bar_menu:hover
 {
     background-color: #15a98b;
 }
 
-.menu a:hover
+.nav_bar_button:hover
 {
     color: #f5f5f5;
     background-color: #15a98b;
@@ -51,7 +52,7 @@
     height: 41px;
     position: relative;
     padding-left: 45px;
-    padding-top: 8px;	
+    padding-top: 9px;	
 }
 
 .me:before
@@ -60,7 +61,7 @@
     display: block;
     position: absolute;
     left: 21px;
-    top: 9px;
+    top: 11px;
 }
 
 .me:hover:before
@@ -69,7 +70,7 @@
     display: block;
     position: absolute;
     left: 21px;
-    top: 9px;
+    top: 11px;
 }
 
 .hobby
@@ -79,7 +80,7 @@
     width: 120px;
     height: 41px;
     padding-left: 41px;
-    padding-top: 7px;
+    padding-top: 9px;
 }
 
 .hobby:before
@@ -88,7 +89,7 @@
     display: block;
     position: absolute;
     left: 15px;
-    top: 9px;
+    top: 11px;
 }
 
 .hobby:hover:before
@@ -97,7 +98,7 @@
     display: block;
     position: absolute;
     left: 15px;
-    top: 9px;
+    top: 11px;
 }
 
 .video
@@ -107,7 +108,7 @@
     width: 180px;
     height: 41px;
     padding-left: 35px;
-    padding-top: 7px;
+    padding-top: 9px;
 }
 
 .video:before
@@ -116,7 +117,7 @@
     display: block;
     position: absolute;
     left: 10px;
-    top: 8px;
+    top: 10px;
 }
 
 .video:hover:before
@@ -125,23 +126,23 @@
     display: block;
     position: absolute;
     left: 10px;
-    top: 8px;
+    top: 10px;
 }
 
 .main
 {
     display: flex;
-	flex-basis: auto;
+    flex-basis: auto;
     flex-direction: column;
     margin: 0 auto;
     padding: 0;
-    width: 1920px;
-    background: url(../images/background.png) no-repeat;
+    background-size: 100%;
+    background: url(../images/background.png) no-repeat center;
     background-position-y: 50px;
     margin-bottom: 70px;
 }
 
-article
+.intro
 {
     display: block;
     width: 960px;
@@ -176,7 +177,7 @@ article
     float: left;
 } 
 
-blockquote
+.blockquote
 {
     display: block;
     font: italic 28px/42px Georgia;
@@ -184,7 +185,7 @@ blockquote
     margin: 0;
 }
 
-cite
+.cite
 {
     display: block;
     color: #f5f5f5;
@@ -215,7 +216,7 @@ cite
     float: right;
 }
 
-.rectangl
+.rectangle
 {
     display: block;
     width: 60px;
@@ -243,7 +244,7 @@ cite
     display: block;
     color: #333;
     font: 700 48px/42px Open Sans, sans-serif;
-    margin-top: 81px;
+    margin-top: 82px;
     margin-bottom: 32px;
 }
 
@@ -257,9 +258,7 @@ cite
 
 .likefilm
 {
-    font: 600 24px/32px Open Sans, sans-serif;
-    color: #15a98c;
-    margin-bottom: 10px;
+    padding-top: 0;
 }
 
 .my_hobby
@@ -269,23 +268,21 @@ cite
     margin-bottom: 14px;
 }
 
-li
-{
-    font: 19px/36px Georgia;
-    color: #555;
-}
-
-.like ul
+.list_writer
 {
     display: block;
+    font: 19px/36px Georgia;
+    color: #555;
     padding-left: 22px;
     padding-top: 3px;
     margin-top: 0;
 }
 
-ol
+.list_film
 {
     display: block;
+    font: 19px/36px Georgia;
+    color: #555;
     margin-top: 12px;
     padding-left: 20px;	
 }
@@ -320,7 +317,7 @@ ol
 .film
 {
     display: block;
-    width: 1223px;
+    width: 1200px;
     margin: 0 auto;
     margin-top: 92px;
     margin-bottom: 52px;
@@ -353,22 +350,17 @@ ol
 .movies
 {
     display: flex;
-	flex-basis: auto;
+    flex-basis: auto;
     flex-flow: row wrap;
+    justify-content: space-between;
 }
 
 .movie 
 {
     width: 285px;
-    padding-right: 20px;	  
 }
 
-.movie:last-of-type
-{
-    padding-right: 23px;
-}
-
-.img_movie1, .img_movie2, .img_movie3, .img_movie4 
+.img_movie
 {
     width: 285px;
     height: 190px;
@@ -378,15 +370,20 @@ ol
 
 .green_button
 {
+    display: block;    
     width: 220px;
-    height: 50px;
+    height: 30px;
     background-color: #15a98b;
     border: none;
     border-radius: 5px;
     color: #f5f5f5;
     font: 19px/32px Georgia;
     padding: 0;
-    margin-left: 828px;;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .green_button:hover
@@ -394,10 +391,10 @@ ol
     background-color: #098d72;
 }
 
-footer
+.footer
 {
     height: 70px;
-    width: 1920px;
+    width: 100%;
     background-color: #f5f5f5;
     margin: 0 auto;
 }
