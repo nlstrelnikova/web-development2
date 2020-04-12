@@ -1,0 +1,63 @@
+.form
+{
+    width: 542px;
+    margin: 0 auto;
+	margin-top: 200px;
+}
+
+label
+{
+    font: 400 20px/1.6 Open Sans;
+}
+
+.star
+{
+    color: red;
+    padding-left: 5px;
+}
+
+input[name="email"]:focus
+{
+    border-color: #15a98c;
+}
+
+input[name="email"]
+{
+    width: 519px;
+    height: 44px;
+    border: 2px solid #c9c9c9;
+    border-radius: 2px;
+    margin: 4px 0 22px 1px;
+    font: 400 18px/1.6 Open Sans;
+    padding-left: 17px;
+}
+
+.submit
+{
+    width: 220px;
+    height: 50px;
+    color: #fff;
+    font: 400 19px Georgia;
+    line-height: 50px;
+    background: #15a98c;
+    border-radius: 5px;
+    margin: 45px 0 0 1px;
+    border: none;
+}
+
+.data
+{
+    width: 200px;
+    margin: 0 auto;
+    font: 400 18px/1.6 Open Sans;
+    list-style: none;
+    margin-top: 200px;	
+}
+
+dd
+{
+    width: 270px;
+    margin: 0 auto;
+    font: 400 18px/1.6 Open Sans;
+    margin-top: 200px;
+}
