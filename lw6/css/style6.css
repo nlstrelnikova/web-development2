@@ -64,7 +64,7 @@
     top: 11px;
 }
 
-.me:hover:before
+.me:hover::before
 {
     content: url("../images/about_me_icon2.png");
     display: block;
@@ -92,7 +92,7 @@
     top: 11px;
 }
 
-.hobby:hover:before
+.hobby:hover::before
 {
     content: url("../images/hobby_icon2.png");
     display: block;
@@ -120,7 +120,7 @@
     top: 10px;
 }
 
-.video:hover:before
+.video:hover::before
 {
     content: url("../images/video_icon2.png");
     display: block;
