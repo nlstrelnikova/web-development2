@@ -30,6 +30,8 @@
             </div>  
           </div>  
         </div>
+        <div class="clear">
+        </div>
         <div class="like">
           <div class="writer">
             <div class="likewriter">
@@ -121,18 +123,18 @@
     <div class="conteiner">
       <div class="write_me">
         <h2 class="form_head" id="write_me">Напиши мне</h2>
-        <form class="form" action="php/form.php" method="POST">
+        <form class="form" action="php/form.php" method="POST" autocomplete="off">
           <label for="name" class="label">Ваше имя<span class="star">*</span></label>
-          <input class="input_field" name="name" id="name" type="text" maxlength="255" required title="Имя"><br>
+          <input class="input_field" name="name" id="name" type="text" maxlength="255" required title="Имя">
           <label for="email" class="label">Ваш email<span class="star">*</span></label>
-          <input class="input_field" name="email" id="email" type="email" maxlength="255" required title="Email"><br>
+          <input class="input_field" name="email" id="email" type="email" maxlength="255" required title="Email">
           <label for="country" class="where">Откуда вы?</label>  
           <select class="country" name="country" id="country" title="Страна" size="1">
             <option>Россия</option>
             <option>Белоруссия</option>
             <option>Уругвай</option>
             <option>США</option>
-          </select><br>
+          </select>
           <label for="gender" class="label">Ваш пол</label>
           <div class="gender">
             <input name="gender" id="male" type="radio" value="male">
