@@ -570,10 +570,11 @@
 {
     width: 138px;
     background: url('../images/check.png') no-repeat;
-    margin: 32px 0 0 32px;
+    margin: 59px 110px 0 32px;
     padding: 0 0 0 40px;
     font: normal normal 14px/16px roboto;
-    color: #2e2b2b;   
+    color: #2e2b2b;
+    float: right;	
 }
 
 .error
