@@ -46,12 +46,13 @@ async function ajaxSend(data) {
     },
     body: JSON.stringify(data)
   })
+  let result = null;
   if (response.ok) {
-    let json = await response.json();
-    return json;
+    result = await response.json();
   } else {
     alert("Ошибка HTTP: " + response.status);
   }
+  return result;
 }
 
 window.onload = run;
