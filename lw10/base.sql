@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS student
     name VARCHAR(255) NOT NULL,
     middle_name VARCHAR(255) DEFAULT NULL,
     age INT NOT NULL,
-    `group_id` INT NOT NULL,
+    group_id INT NOT NULL,
     PRIMARY KEY (id)
     ) DEFAULT CHARACTER SET utf8mb4
     COLLATE `utf8mb4_unicode_ci`
@@ -96,7 +96,7 @@ INSERT INTO student (id, last_name, name, middle_name, age, `group_id`) VALUES
     (45, 'Мошкин', 'Антон', 'Дмитриевич', 20, 9);
 
 
--- получение всех студентов из конкретной группы.	
+-- получение всех студентов в возрасте 19 лет.	
 SELECT
     id,
     last_name AS "Last name",
@@ -119,11 +119,11 @@ FROM
 JOIN 
     student
 ON
-    student.`group_id` = `group`.id
+    student.group_id = `group`.id
 WHERE
     `group`.name = 'MM-13';
 
--- получение всех студентов из конкретного факультета
+-- получение всех студентов из конкретного факультета.
 SELECT
     student.last_name AS "Last name",
     student.name AS "Name",
@@ -138,12 +138,12 @@ ON
 JOIN
     student
 ON
-    student.`group_id` = `group`.id 
+    student.group_id = `group`.id 
 WHERE
     faculty.name = 'RTF';
 
 
--- получение факультета и группы конкретного студента
+-- получение факультета и группы конкретного студента.
 SELECT
     student.last_name AS "Last name",
     student.name AS "Name",
@@ -155,7 +155,7 @@ FROM
 JOIN
     `group`
 ON
-    `group`.id = student.`group_id`
+    `group`.id = student.group_id
 JOIN
     faculty
 ON
