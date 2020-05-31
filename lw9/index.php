@@ -8,7 +8,7 @@ function getRequestMethod(): string
     return $_SERVER['REQUEST_METHOD'];
 }
 
-function checkName(string $email): string
+function checkName(string $name): string
 {
     return preg_match("/^[A-Za-z]+$/", $name) && !empty($name) ? 'correct' : 'error';
 }
