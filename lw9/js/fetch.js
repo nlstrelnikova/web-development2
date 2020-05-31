@@ -1,9 +1,9 @@
 function run() {
   const form = document.querySelector('form');
-  form.addEventListener('submit', createFormData);
+  form.addEventListener('submit', onSubmit);
 }
 
-async function createFormData(event) {
+async function onSubmit(event) {
   if (event.cancelable) {
     event.preventDefault();
   }
