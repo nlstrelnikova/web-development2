@@ -100,17 +100,16 @@ body
     font: 600 22px/32px "Open Sans", sans-serif, sans-serif;
     color: #15a98c;
     margin-left: -1px;
+    margin-bottom: 24px;
 }
 
 .list_writer
 {
-    margin: -11px -16px;
+    margin: -8px -16px;
     margin-right: 0;
     font: 19px/36px "Georgia";
     color: #555555;
 }
-
-
 
 .list_film
 {
@@ -122,7 +121,9 @@ body
 
 .indent_list
 {
-    margin-top: 56px;
+    font: 600 22px/32px "Open Sans", sans-serif, sans-serif;
+    color: #15a98c;    
+    margin-top: 49px;
 }
 
 .main_content
@@ -164,21 +165,20 @@ body
     margin-left: -5px;
     margin-top: 30px;
     order: -2;
-	margin: 0;
+    margin: 0;
 }
 
 .line
 {
-    margin-top: 19px;
+    margin-top: 13px;
     margin-left: 10px;
-    width: 15%;
+    width: 12%;
 }
 
 .status
 {
     font: 19px/32px "Georgia";
     color: #555555;
-    margin-top: 37px;
     margin-left: 8px;
 }
 
@@ -190,16 +190,17 @@ body
 
 .volley
 {
-    margin-top: 45px;
+    margin-top: 40px;
     margin-left: 6px;
+	margin-bottom:15px;
 }
 
 .hobby
 {
     font: 19px/32px "Georgia";
     color: #555555;
-    margin-top: -15px;
     margin-left: 8px;
+	margin-top: 15px;
 }
 
 .indent_link
@@ -234,7 +235,7 @@ body
     background-color: #f9f9f9;
 }
 
-.help
+.films
 {
     display: flex;
     justify-content: center;
@@ -245,10 +246,9 @@ body
 {
     display: flex;
     flex-direction: column;
-    margin-bottom: 50px;
 }
 
-.photo_film
+.img_movie
 {
     width: 100%;
     height: auto;
@@ -308,7 +308,6 @@ body
     font: 300 36px/42px "Open Sans", sans-serif;
 }
 
-
 .your_form
 {
     margin: 0 auto;
@@ -321,7 +320,7 @@ body
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
-    height: 43px;
+    height: 50px;
     border-radius: 3px;
     border: 2px solid #c9c9c9;
     font: 400 18px/32px "Open Sans", sans-serif;
@@ -329,7 +328,7 @@ body
     padding-right: 17px;
     margin-left: 2px;
     margin-top: 2px;
-    margin-bottom: 28px;
+    margin-bottom: 26px;
 }
 
 .snowflake
@@ -390,12 +389,12 @@ body
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
-    height: 142px;
+    height: 146px;
     margin-left: 1px;
     border-radius: 3px;
     border: 2px solid #c9c9c9;
     resize: none;
-    margin-top: 4px;
+    margin-top: 5px;
     font: 400 18px/32px "Open Sans", sans-serif;
     color: #555555;
     padding-left: 17px;
@@ -423,10 +422,7 @@ body
     height: 50px;
     border-radius: 5px;
     background-color: #15a98c;
-    margin-top: 45px;
-    margin-left: 2px;
-    padding-left: 5px;
-    padding-right: 3px;
+    margin-top: 49px;
     display: inline;
     border: none;
 }
@@ -473,7 +469,7 @@ body
 {
     margin-top: 5px;
     margin-left: -3px;
-    margin-bottom: 34px;
+    margin-bottom: 35px;
 }
 
 footer
@@ -565,9 +561,9 @@ footer
 	
 	.my_hobby
     {
-        margin-left: 10px;
-        margin-right: 10px;       
-        margin-top: 30px;
+        margin-left: 50px;
+        margin-right: 20px;       
+        margin-top: -10px;
     }	
 
     .about_films
@@ -576,7 +572,7 @@ footer
         padding-right: 30px;
     }
 
-    .photo_film
+    .img_movie
     {
         width: 70%;
         height: 100%;
@@ -600,7 +596,7 @@ footer
     {
         width: 40%;
         height: 100%;
-		margin-top: 150px;
+        margin-top: 150px;
     }
 
     .nav_bar
@@ -672,7 +668,7 @@ footer
         flex-direction: row;
     }
 
-    .photo_film
+    .img_movie
     {
         width: 40%;
         margin-right: 30px;
@@ -681,6 +677,7 @@ footer
     .movie
     {
         margin-top: 0;
+		margin-bottom: 30px;
     }
 
     .content
@@ -709,12 +706,12 @@ footer
 
     .cell
     {
-        width: 504px;
+        width: 540px;
     }
 
     .combo_box
     {
-        width: 504px;
+        width: 540px;
     }
 
     .your_form
@@ -724,7 +721,7 @@ footer
 
     .message
     {
-        width: 504px;
+        width: 540px;
     }
 }
 
@@ -769,7 +766,7 @@ footer
 
     .image
     {
-        width: 330px;
+        /*width: 330px;*/
         height: 350px;
         margin: 0;
     }
@@ -806,17 +803,12 @@ footer
     .name
     {
         font: 700 48px "Open Sans", sans-serif;
-        margin-top: 95px;
+        margin-top:55px;
     }
 
     .line
     {
-        margin-left: 0px;
-    }
-
-    .status
-    {
-        margin-top: 10px;
+        margin-left: 2px;
     }
 
     .about_films
@@ -825,11 +817,11 @@ footer
         padding-left: 0;
         padding-right: 0;
         width: auto;
-        margin-top: 80px;
+        margin-top: 36px;
         margin-left: 10px;
     }
 
-    .help
+    .films
     {
         flex-direction: row;
         justify-content: space-between;
@@ -840,10 +832,9 @@ footer
         flex-direction: column;
         max-width: 285px;
         margin-right: 10px;
-
     }
 
-    .photo_film
+    .img_movie
     {
         width: 100%;
         height: auto;
@@ -859,7 +850,7 @@ footer
     {
         max-width: 700px;
         margin: 0 auto;
-        margin-top: 100px;
+        margin-top: 14px;
     }
 
     .write_me
@@ -867,6 +858,7 @@ footer
         margin-left: auto;
         margin-right: auto;
         padding: 0;
+        margin-bottom: 69px;
     }
 
 
