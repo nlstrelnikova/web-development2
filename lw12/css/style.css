@@ -766,7 +766,6 @@ footer
 
     .image
     {
-        /*width: 330px;*/
         height: 350px;
         margin: 0;
     }
@@ -861,7 +860,6 @@ footer
         margin-bottom: 69px;
     }
 
-
     .write_me:before
     {
         content: '';
@@ -871,7 +869,6 @@ footer
         margin-left: -225px;
         margin-top: 24px;
     }
-
 
     .write_me:after
     {
